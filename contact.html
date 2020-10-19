@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/mobile_stylesheet.css">
+
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico">
+
+    <title>Accueil | Atelier peinture</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="nav-extended">
+        <div class="nav-wrapper container" id="navbar">
+            <a href="index.html" class="brand-logo">
+                <img class="logo-svg" alt="logo pinceaux" src="img/logo.svg" />
+                <h2 class="logo">&nbsp;Atelier pépinière</h2>
+                <img class="logo-mobile" alt="logo pinceaux" src="img/logo.svg" />
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="horaire.html">Horaire / Tarif</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="horaire.html">Horaire/Tarif</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <!---->
+
+
+
+
+    <main class="contact">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.0729230549737!2d1.4001278159121393!3d43.58419737912379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aeba53a739cc1d%3A0xd924d2969bea1bdb!2s150%20Rue%20Nicolas%20Louis%20Vauquelin%2C%2031100%20Toulouse!5e0!3m2!1sfr!2sfr!4v1592480294955!5m2!1sfr!2sfr"
+            width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        <div class="container row">
+            <section class="col m8 formulaire">
+                <h2>Contactez-nous</h2>
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="first_name" type="text" class="validate">
+                                <label for="first_name">Nom</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="last_name" type="text" class="validate">
+                                <label for="last_name">Prenom</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+
+                        <div class="row col s12">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                    <label for="textarea1">Textarea</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="waves-effect waves-light btn">Valider</button>
+
+                    </form>
+                </div>
+            </section>
+            <section class="col m4">
+                <address>
+                    <p class="h2">Adresse</p>
+                    <p>150 Rue Nicolas Louis Vauquelin, 31100 Toulouse</p>
+                    <p>Accès Tram B arrêt Les Hangars,
+                        Bus ligne 4 arrêt Lewis Brown,
+                        Parking à vélo</p>
+
+                    <p class="h2">Contact</p>
+                    <a href="tel:0561304628" class="inline"><i class="material-icons">call</i>
+                        <p>&nbsp;&nbsp;05 61 30 46 28</p>
+                    </a>
+                </address>
+
+                <h2>Rejoignez-nous</h2><br>
+                <a href="https://fr-fr.facebook.com/" class="logo-reseau"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/?hl=fr" class="logo-reseau"><i
+                        class="fab fa-instagram-square"></i></a>
+                <a href="https://twitter.com/explore" class="logo-reseau"><i class="fab fa-twitter-square"></i></a>
+            </section>
+        </div>
+
+    </main>
+
+
+
+    <footer>
+        <div class="container row">
+            <address class="col s4">
+                <p class="h6">Contact</p>
+                <a href="tel:0561304628" class="inline"><i class="material-icons">call</i>
+                    <p>&nbsp;&nbsp;05 61 30 46 28</p>
+                </a>
+                <a href="mailto:atelier-pepiniere@gmail.com" class="inline"><i class="material-icons">email</i>
+                    <p>&nbsp;&nbsp;atelier-pepiniere@gmail.com</p>
+                </a>
+                <div class="inline">
+                    <i class="material-icons">location_on</i>
+                    <p>&nbsp;&nbsp;150 rue Louis Vauquelin<br>&nbsp;&nbsp;31100 Toulouse</p>
+                </div>
+            </address>
+
+            <div class="col s4 small-logo">
+                <h6>Rejoignez-nous</h6>
+                <a href="https://fr-fr.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/?hl=fr"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://twitter.com/explore"><i class="fab fa-twitter-square"></i></a>
+            </div>
+
+            <div class="col s4 mobile-hide">
+                <h6>Atelier pépinière</h6>
+                <p>Cours de dessin et peinture à Toulouse</p>
+                <small>Siret 512001284556445</small>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+    <!-- Compiled and minified JavaScript -->
+    <script src="js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

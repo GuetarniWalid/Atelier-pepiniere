@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/mobile_stylesheet.css">
+
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico">
+
+    <title>Accueil | Atelier peinture</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="nav-extended">
+        <div class="nav-wrapper container" id="navbar">
+            <a href="index.html" class="brand-logo">
+                <img class="logo-svg" alt="logo pinceaux" src="img/logo.svg" />
+                <h2 class="logo">&nbsp;Atelier pépinière</h2>
+                <img class="logo-mobile" alt="logo pinceaux" src="img/logo.svg" />
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="horaire.html">Horaire / Tarif</a></li>
+                <li class="active"><a href="galerie.html">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="horaire.html">Horaire/Tarif</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <!---->
+
+    <main class="main galerie">
+        <div class="container">
+
+            <div class="column one colonne">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img/tableau1.jpg" alt="peinture acrylique philippe">
+                        <div class="filtre activator"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Philippe<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Philippe<i
+                                class="material-icons right">close</i></span>
+                        <p>Acrylique / abstrait moderne</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img/tableau2.jpg" alt="peinture huile walid">
+                        <div class="filtre activator"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Walid<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Walid<i
+                                class="material-icons right">close</i></span>
+                        <p>Huile / interpretation roman "Montagne de Chine"</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img/tableau3.jpg" alt="peinture huile hayatte">
+                        <div class="filtre activator"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Hayatte<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Hayatte<i
+                                class="material-icons right">close</i></span>
+                        <p>Huile / Fleur désuette</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img/tableau4.jpg" alt="peinture gouache corine">
+                        <div class="filtre activator"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Corine<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Corine<i
+                                class="material-icons right">close</i></span>
+                        <p>Gouache / Corbeille de kaki</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="column two colonne">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img/tableau5.jpg" alt="peinture mixte julie">
+                        <div class="filtre activator"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Julie<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Julie<i
+                                class="material-icons right">close</i></span>
+                        <p>Techniques mixtes/ interprétation de "la jeune fille à la perle" de J. Vermeer</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img/tableau6.jpg" alt="huile toile thibault">
+                        <div class="filtre activator"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Thibault<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Thibault<i
+                                class="material-icons right">close</i></span>
+                        <p>Huile sur toile / interprétation de l'oeuvre de R Magritte</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img/tableau7.jpg" alt="huile sur bois thibault">
+                        <div class="filtre activator"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Thibault<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Thibault<i
+                                class="material-icons right">close</i></span>
+                        <p>Huile sur bois d'après Boticcelli</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img/tableau8.jpg" alt="peinture acrylique emilie">
+                        <div class="filtre activator"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Emilie<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Emilie<i
+                                class="material-icons right">close</i></span>
+                        <p>Acrylique</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column three colonne">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img/tableau9.jpg" alt="acrylique xavier">
+                        <div class="filtre activator"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Xavier<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Xavier<i
+                                class="material-icons right">close</i></span>
+                        <p>Acrylique sur papier</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img/tableau10.jpg" alt="crayon Delphine">
+                        <div class="filtre activator"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Delphine<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Delphine<i
+                                class="material-icons right">close</i></span>
+                        <p>Crayon</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img/tableau11.jpg" alt="huile sur toile bernadette">
+                        <div class="filtre activator"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Bernadette<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Bernadette<i
+                                class="material-icons right">close</i></span>
+                        <p>Huile sur toile</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img/tableau12.jpg" alt="aquarelle xavier">
+                        <div class="filtre activator"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Xavier<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Xavier<i
+                                class="material-icons right">close</i></span>
+                        <p>Aquarelle</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column four colonne">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img/tableau13.jpg" alt="sanguine magalie">
+                        <div class="filtre activator"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Magalie<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Magalie<i
+                                class="material-icons right">close</i></span>
+                        <p>Sanguine</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img/tableau14.jpg" alt="acrylique sur papier lydie">
+                        <div class="filtre activator"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Lydie<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Lydie<i
+                                class="material-icons right">close</i></span>
+                        <p>Acrylique sur papier 50x65cm</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img/tableau15.jpg" alt="acrylique sur papier gérard">
+                        <div class="filtre activator"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Gérard<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Gérard<i
+                                class="material-icons right">close</i></span>
+                        <p>Acrylique sur papier</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img/tableau16.jpg" alt="acrylique sur toile michelle">
+                        <div class="filtre activator"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Michelle<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Michelle<i
+                                class="material-icons right">close</i></span>
+                        <p>Acrylique sur toile</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </main>
+
+
+
+    <footer>
+        <div class="container row">
+            <address class="col s4">
+                <p class="h6">Contact</p>
+                <a href="tel:0561304628" class="inline"><i class="material-icons">call</i>
+                    <p>&nbsp;&nbsp;05 61 30 46 28</p>
+                </a>
+                <a href="mailto:atelier-pepiniere@gmail.com" class="inline"><i class="material-icons">email</i>
+                    <p>&nbsp;&nbsp;atelier-pepiniere@gmail.com</p>
+                </a>
+                <div class="inline">
+                    <i class="material-icons">location_on</i>
+                    <p>&nbsp;&nbsp;150 rue Louis Vauquelin<br>&nbsp;&nbsp;31100 Toulouse</p>
+                </div>
+            </address>
+
+            <div class="col s4 small-logo">
+                <h6>Rejoignez-nous</h6>
+                <a href="https://fr-fr.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/?hl=fr"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://twitter.com/explore"><i class="fab fa-twitter-square"></i></a>
+            </div>
+
+            <div class="col s4 mobile-hide">
+                <h6>Atelier pépinière</h6>
+                <p>Cours de dessin et peinture à Toulouse</p>
+                <small>Siret 512001284556445</small>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+    <!-- Compiled and minified JavaScript -->
+    <script src="js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

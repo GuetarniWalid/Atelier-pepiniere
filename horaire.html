@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/mobile_stylesheet.css">
+
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico">
+
+    <title>Accueil | Atelier peinture</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="nav-extended">
+        <div class="nav-wrapper container" id="navbar">
+            <a href="index.html" class="brand-logo">
+                <img class="logo-svg" alt="logo pinceaux" src="img/logo.svg" />
+                <h2 class="logo">&nbsp;Atelier pépinière</h2>
+                <img class="logo-mobile" alt="logo pinceaux" src="img/logo.svg" />
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Accueil</a></li>
+                <li class="active"><a href="horaire.html">Horaire / Tarif</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="horaire.html">Horaire/Tarif</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <!---->
+
+    <main class="horaire">
+
+        <section>
+            <article>
+                <h2 class="center-align">Les horaires</h2>
+                <table class="striped">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>heure d'ouverture</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Lundi</td>
+                            <td>19h / 21h</td>
+                        </tr>
+                        <tr>
+                            <td>Mardi</td>
+                            <td>14h - 16h / 19h - 21h</td>
+                        </tr>
+                        <tr>
+                            <td>Mercredi</td>
+                            <td>14h - 16h</td>
+                        </tr>
+                        <tr>
+                            <td>Jeudi</td>
+                            <td>14h - 16h / 19h - 21h</td>
+                        </tr>
+                        <tr>
+                            <td>Vendredi</td>
+                            <td>14h - 16h / 19h - 21h</td>
+                        </tr>
+                        <tr>
+                            <td>Samedi</td>
+                            <td>10h - 12h</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </article>
+            <hr>
+
+            <article>
+                <h2 class="center-align">Les tarifs</h2>
+                <h3>Forfait trimestriel</h3>
+                <p>Pour une séance de 2h par semaine : <br><br>                  
+                    195 euros le trimestre pour la première année d’inscription,                    
+                    170 euros le trimestre à partir d’un an d’ancienneté<br><br>                                      
+                    + 15 euros de frais d'inscription annuels.                   
+                    Possibilité de paiement en trois fois par encaissement différé<br><br>                                        
+                    N'hésitez pas à prendre rendez-vous pour une séance d'essai (tarif: 5 euros).                   
+                    Idée cadeau : L’atelier peut s’offrir sous la forme d’un bon cadeau pour un forfait trimestriel</p>
+                
+            </article>
+            
+        </section>
+
+
+
+    </main>
+
+
+
+    <footer>
+        <div class="container row">
+            <address class="col s4">
+                <p class="h6">Contact</p>
+                <a href="tel:0561304628" class="inline"><i class="material-icons">call</i>
+                    <p>&nbsp;&nbsp;05 61 30 46 28</p>
+                </a>
+                <a href="mailto:atelier-pepiniere@gmail.com" class="inline"><i class="material-icons">email</i>
+                    <p>&nbsp;&nbsp;atelier-pepiniere@gmail.com</p>
+                </a>
+                <div class="inline">
+                    <i class="material-icons">location_on</i>
+                    <p>&nbsp;&nbsp;150 rue Louis Vauquelin<br>&nbsp;&nbsp;31100 Toulouse</p>
+                </div>
+            </address>
+
+            <div class="col s4 small-logo">
+                <h6>Rejoignez-nous</h6>
+                <a href="https://fr-fr.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/?hl=fr"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://twitter.com/explore"><i class="fab fa-twitter-square"></i></a>
+            </div>
+
+            <div class="col s4 mobile-hide">
+                <h6>Atelier pépinière</h6>
+                <p>Cours de dessin et peinture à Toulouse</p>
+                <small>Siret 512001284556445</small>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+    <!-- Compiled and minified JavaScript -->
+    <script src="js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

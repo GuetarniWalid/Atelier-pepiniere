@@ -1,0 +1,302 @@
+@media screen and (max-width: 992px){
+    /**** GENERAL ****/
+    img{
+        max-width: none;
+    }
+    
+    
+    /** NAVBAR **/
+    .logo{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    h2.logo{
+        width: 200px;
+    }
+
+    nav .sidenav-trigger i{
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    /****** HEADER *******/
+
+    #titre{
+        font-size: 50px;
+        padding-top: 80px;
+        padding-right: 0;
+    }
+    
+    #titre+h2{
+        font-size: 40px;
+    }
+
+    #titre+h2+p{
+        font-size: 25px;
+    }
+
+    /***** SECTION ****/
+
+    div.main section.container{
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    section p {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    section article img{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /*****MAIN GALERIE*****/
+
+    main.galerie{
+        padding: 50px 0;
+    }
+
+    main.galerie .container{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .four{
+        order: 2;
+    }
+
+    .two{
+        order: 4;
+    }
+
+    .three{
+        order: 3;
+    }
+
+    /*****MAIN HORAIRE*****/
+
+    .horaire > section{
+        width: 600px;
+    }
+
+    /****MAIN CONTACT*****/
+
+    .contact h2{
+        font-size: 25px;
+    }
+
+    .contact p{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .contact h2+p{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .contact .h2{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .contact .inline{
+        width: 100%;
+    }
+
+
+    
+
+    /**** FOOTER ****/
+
+    footer .container{
+        width: 100%;
+        padding: 0 25px 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    address{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1569px) and (min-width: 970px){
+    #navbar{
+        width: 100%;
+    }
+
+    #navbar img{
+        margin: 25px;
+    }
+
+    .logo{
+        font-size: 30px;
+    }
+
+    #navbar ul{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /****NAVBAR*****/
+    h2.logo{
+        font-size: 25px;
+        margin-top: 30px;
+        width: 150px;
+    }
+
+    nav .sidenav-trigger i{
+        font-size: 30px;
+    }
+
+    .brand-logo img{
+        display: none;
+    }
+
+    .brand-logo .logo-mobile{
+        display: block;
+        width: 60px;
+    }
+
+    /***********/
+
+    .parallax-container{
+        height: 300px;
+    }
+
+    .parallax-container .parallax.first-img{
+        top: -500px;
+        left: 400px;
+    }
+
+
+    /*********HEADER******/
+    #titre{
+        font-size: 35px;
+        padding-top: 50px;
+    }
+
+    #titre + h2{
+        font-size: 28px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #titre + h2 + p{
+        font-size: 20px;
+        padding-bottom: 50px;
+    }
+
+    /******MAIN******/
+
+    main img.z-depth-5{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section p{
+        font-size: 17px;
+        padding-top: 20px;
+    }
+
+    .mobile-p{
+        padding-top: 40px;
+    }
+
+    section.container{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .flex-inverse{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    section+article{
+        padding-bottom: 0;
+    } 
+
+    .horaire table td{
+        font-size: 16px;
+    }
+
+    /*****HORAIRE*****/
+
+    .horaire > section{
+        width: 325px;
+        padding: 20px 20px;
+    }
+
+    .horaire h2{
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .horaire table th{
+        font-size: 18pxpx;
+    }
+
+    .horaire h3{
+        font-size: 20px;
+    }
+
+    .horaire p{
+        font-size: 17px;
+    }
+
+    /******CONTACT*****/
+
+    .contact iframe{
+        height: 350px;
+    }
+
+    main.contact section.formulaire{
+        padding: 10px;
+    }
+
+    .contact address{
+        border-top: 2px ridge #2bbbad;
+    }
+
+
+
+    /*****FOOTER*******/
+
+    .mobile-hide{
+        display: none;
+    }
+
+    footer address{
+        margin: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    footer .small-logo{
+        margin: 0 0 0 0px !important;
+        padding-left: 40px !important;
+    }
+
+    footer .small-logo a{
+        font-size: 30px;
+        display: block;
+    }
+
+    footer .small-logo a{
+        margin-left: 20px;
+    }
+
+    footer h6{
+        font-size: 18px;
+    }
+}

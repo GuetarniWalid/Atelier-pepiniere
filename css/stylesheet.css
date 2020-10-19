@@ -1,0 +1,318 @@
+/*********** Font ***********/
+
+@font-face {
+    font-family: 'leckerli_oneregular';
+    src: url('../font/leckerlione-regular-webfont.woff2') format('woff2'),
+         url('leckerlione-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/********** General *******/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+iframe{
+    max-width: 100%;
+}
+
+address{
+    font-style: normal;
+}
+
+/********* NavBar ********/
+
+.logo{
+    font-family: 'leckerli_oneregular';
+    letter-spacing: 5px;
+}
+
+.logo-svg{
+    max-width: 80px;
+}
+
+.logo-mobile{
+    display: none;
+}
+
+nav .brand-logo{
+    display: flex;
+    align-items: center;
+}
+
+#navbar{
+    height: 130px;
+}
+
+nav ul{
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul a{
+    font-size: 22px;
+}
+
+
+/****** main ********/
+
+#titre{
+    padding-top: 120px;
+    margin-top: 0;
+    padding-right: 80px;
+    font-size: 50px;
+}
+
+#titre+h2{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-size: 38px;
+}
+
+#titre+h2+p{
+    font-size: 25px;
+    padding-bottom: 100px;
+    margin-bottom: 0;
+}
+
+
+section{
+    padding-top: 120px;
+    padding-bottom: 100px;
+    font-size: 25px;
+}
+
+article{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.droite{
+    display: block;
+    margin-left: auto;
+}
+
+main img.z-depth-5{
+    transition: transform ease 0.6s;
+}
+
+main img.z-depth-5:hover{
+    transform: scale(1.07);
+}
+
+/******MAIN GALERIE******/
+
+main.galerie{
+    padding: 100px 0;
+} 
+
+
+main.galerie .container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.colonne{
+    margin: 0 20px;
+}
+
+.galerie .card{
+    width: 100%;
+    min-width: 215px;
+}
+
+.filtre{
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: all ease 0.4s;
+}
+
+.filtre:hover{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.582);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+/******MAIN HORAIRE******/
+
+main.horaire{
+    background: url("../img/pinceaux.jpg");
+    width: 100%;
+    padding: 50px 0;
+}
+
+.horaire>section{
+    background: #ffffff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 60px;
+    border-radius: 20px;
+
+}
+
+.horaire article{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.horaire h2{
+    font-size: 35px;
+}
+
+.horaire table td{
+    font-size: 18px;
+}
+
+.horaire table th{
+    font-size: 18px;
+}
+
+.horaire h3{
+    font-size: 25px;
+}
+
+.horaire p{
+    font-size: 20px;
+}
+
+.horaire hr{
+    width: 50%;
+}
+
+/****MAIN CONTACT*****/
+
+iframe{
+    width: 100%;
+}
+
+main.contact{
+    background: #fff;
+}
+
+main.contact .container{
+    padding-bottom: 50px;
+}
+
+main.contact section.formulaire{
+    padding: 40px;
+}
+
+.contact h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    display: inline-block;
+    border-bottom: 2px solid #2bbbad;
+}
+
+.contact .h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    display: inline-block;
+    border-bottom: 2px solid #2bbbad;
+}
+
+.contact p{
+    font-size: 20px;
+}
+
+.contact .inline{
+    color: rgb(32, 32, 32);
+}
+
+.logo-reseau{
+    font-size: 40px;
+    display: inline-block;
+    margin-left: 10px;
+    transition: transform linear 0.2s;
+}
+
+.logo-reseau:hover{
+    transform: scale(1.15);
+}
+
+
+/****** footer *******/
+
+footer{
+    color: #ffffff;
+    padding-top: 30px;
+    font-size: 16px;
+    background: #ee6e73;
+    height: 100%;
+}
+
+footer .container{
+    margin-bottom: 0;
+}
+
+.inline{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    width: 270px;
+}
+
+
+footer address p{
+    padding: 10px 0;
+    margin: 0;
+}
+
+footer .h6{
+    font-size: 23px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+footer h6{
+    font-size: 23px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.small-logo{
+    font-size: 40px;
+}
+
+.small-logo a{
+    color: #ffffff;
+    margin-left: 10px;
+    display: inline-block;
+    transition: transform linear 0.2s;
+}
+
+.small-logo a:hover{
+    transform: scale(1.15);
+}
+
+footer small{
+    font-size: 14px;
+}
